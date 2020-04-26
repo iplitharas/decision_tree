@@ -14,7 +14,7 @@ class DataLoader:
 
     def __init__(self, saves_folder_name: str = "saves", results_folder_name: str = "results", debug=True):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
-        self.parent_path = self.current_dir
+        self.parent_path = os.path.dirname(self.current_dir)
         self.debug = debug
         self._config = self._read_config()
         self._saves_dir = None
@@ -65,7 +65,7 @@ class DataLoader:
         :return: the configuration as a dictionary
         :raises FileNotFoundError in case config file is not exists
         """
-        config_path = os.path.join(self.current_dir, "config.json")
+        config_path = os.path.join(self.parent_path, "config.json")
         if not os.path.isfile(config_path):
             raise FileNotFoundError('Config file is missing')
 

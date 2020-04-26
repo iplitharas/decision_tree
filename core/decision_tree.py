@@ -4,8 +4,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tools.logger import Logger, logged
 from types import FunctionType
-from data_handler import DataHandler
-from data_loader import DataLoader
+from core.data_handler import DataHandler
+from core.data_loader import DataLoader
 
 
 class Judge:
