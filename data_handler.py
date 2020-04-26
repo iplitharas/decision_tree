@@ -12,7 +12,7 @@ class DataHandler:
     def __init__(self, trips: List[dict], config: dict, saves_dir: str):
         """
         Main properties:
-            data_sets :property returns the training and the testing data set.
+            data_sets : returns the training and the testing data set.
         Main methods:
             create_features: create features on the requested data set.
             evaluate: evaluates the data on a training model.
@@ -28,8 +28,7 @@ class DataHandler:
     @property
     def relative_arrival_times(self) -> pd.DataFrame:
         """
-        Tries to restore or re-calculate the arrival times
-        :return: DataFrame
+        Tries to restore or re-calculate the relative arrival times
         """
         trips = None
         arrival_checkpoint = os.path.join(self.saves_dir, "relative_arrival_times")
@@ -44,8 +43,7 @@ class DataHandler:
     @property
     def arrival_times(self) -> pd.DataFrame:
         """
-        Returns the Door to Door arrival time DataFrame
-        :return:
+        Returns the Final arrival times = Door to Door arrival times
         """
         door_df = None
         trips_df = self.relative_arrival_times
@@ -63,7 +61,6 @@ class DataHandler:
         """
         Based on the last_training day it split the data into
         training , testing data set
-        :return:
         """
         training_df, testing_df = None, None
         training_checkpoint = os.path.join(self.saves_dir, "training")
@@ -81,35 +78,43 @@ class DataHandler:
     def evaluate(self, tree, data_set: pd.DataFrame):
         """
         This method evaluates the trained tree based on the requested data_set
-        :param tree:
-        :param data_set:
+        :param tree: The trained tree
+        :param data_set: normally testing or evaluate training set
         :return: The mean value of the deviation from the estimated departure and the original.
         """
         dates_str = list(data_set.columns)
         features = self.create_features(dates_str)
         deviation = []
+        errors = []
         for date_str in dates_str:
-            estimated_departure = tree.predict(features=features.loc[date_str, :])
+            predicted_departure = tree.predict(features=features.loc[date_str, :])
             lateness = data_set.loc[:, date_str]
             # from each -60 until 0 mins left from home we select the predicted on from the model.
-            deviation.append(lateness.loc[estimated_departure])
-            Logger.logger.debug(f"{date_str} estimated_departure {estimated_departure} deviation {deviation[-1]}")
+            label = lateness.loc[predicted_departure]
+            if label > 0:
+                Logger.logger.error(f"Error predicted departure is:{predicted_departure} corresponding"
+                                    f" arrival for this departure is: {label}")
+                errors.append(label)
+            deviation.append(label)
+            Logger.logger.debug(f"{date_str} estimated_departure {predicted_departure} deviation {deviation[-1]}")
 
+        accuracy = ((len(deviation) - len(errors)) / len(deviation)) * 100
+        Logger.logger.info(f"Total errors are: {len(errors)}/{len(deviation)} accuracy is:{accuracy}%\n")
         plt.plot(deviation, linestyle='none', marker='.')
         plt.ylabel('minutes late')
+        plt.title("Results on validation data set with {:.2f}% ".format(accuracy))
         plt.show()
         return np.mean(np.abs(deviation))
 
     @logged
     def create_features(self, dates: List[str]) -> pd.DataFrame:
         """
-        We are going create Features for each day depending on:
+        This method create the features for each day depending on:
         if it's workday or Saturday or Sunday,
         If it's winter autumn spring summer
         :return: The Features DataFrame on the requested dataset
         """
         features = []
-
         for date in dates:
             current_date = datetime.datetime.strptime(date, self.date_format).date()
             current_week = current_date.weekday()

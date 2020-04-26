@@ -24,7 +24,11 @@ class Judge:
 
     @staticmethod
     def find_departure_time(eval_set_df) -> float:
-        # finds the 90th percentile lateness for each row
+        """
+        finds the 90th percentile lateness for each minute on the time window(row)
+        :param eval_set_df:
+        :return:
+        """
         lateness = eval_set_df.quantile(q=0.9, axis=1)
         # find the departure time that corresponds to a lateness of 0
         # i.e the one that get us there on time 90%
@@ -252,6 +256,7 @@ class DecisionTree:
             recurse(node.high, level + 1, x_hi)
 
         recurse(node=self.root, level=initial_level, x=initial_x)
+        plt.title("Decision tree")
         plt.show()
 
 
