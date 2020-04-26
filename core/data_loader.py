@@ -12,7 +12,8 @@ from tools.logger import Logger, logged
 
 class DataLoader:
 
-    def __init__(self, saves_folder_name: str = "saves", results_folder_name: str = "results", debug=True):
+    def __init__(self, saves_folder_name: str = "saves",
+                 results_folder_name: str = "results", debug=True):
         self.current_dir = os.path.dirname(os.path.abspath(__file__))
         self.parent_path = os.path.dirname(self.current_dir)
         self.debug = debug
@@ -37,7 +38,8 @@ class DataLoader:
     @property
     def data(self) -> List[dict]:
         """
-        This method is the entry point to retrieve all the data set from (saves directory)
+        This method is the entry point to retrieve all the data set from (
+        saves directory)
         In case we don't have them tries to re-download them
         :return:
         """
@@ -51,7 +53,8 @@ class DataLoader:
     @property
     def station_codes(self) -> Tuple[int, int]:
         """
-        This method checks if we have already download the dataset for all station codes(stored as zip file
+        This method checks if we have already download the dataset for all
+        station codes(stored as zip file
         in saves directory)
         In we case we don't it tries to re-download
         :return: a string of the file name
@@ -60,7 +63,8 @@ class DataLoader:
         file_name_path = os.path.join(self._saves_dir, file_name)
         if not os.path.isfile(file_name_path):
             self._download_station_codes(dataset_url=self.config['dataset_url'],
-                                         dataset_file_name=os.path.join(self._saves_dir, file_name))
+                                         dataset_file_name=os.path.join(
+                                             self._saves_dir, file_name))
 
         return self._get_station_codes(file_name_path)
 
@@ -77,7 +81,8 @@ class DataLoader:
             config = json.load(config_file)
         return config
 
-    def _make_directories(self, saves_folder_name: str, results_folder_name: str) -> None:
+    def _make_directories(self, saves_folder_name: str,
+                          results_folder_name: str) -> None:
         """
         Creates the directory for saves and for the final results.
         """
@@ -89,11 +94,16 @@ class DataLoader:
             os.mkdir(saves_dir)
             os.mkdir(results_dir)
         except FileExistsError:
-            Logger.logger.debug(f"Folder name: {saves_folder_name} for saves already exists.")
-            Logger.logger.debug(f"Folder name: {results_folder_name} for results already exists.")
+            Logger.logger.debug(
+                f"Folder name: {saves_folder_name} for saves already exists.")
+            Logger.logger.debug(
+                f"Folder name: {results_folder_name} for results already "
+                f"exists.")
         else:
-            Logger.logger.debug(f"Successfully created the folder: {saves_folder_name}")
-            Logger.logger.debug(f"Successfully created the folder: {results_folder_name}")
+            Logger.logger.debug(
+                f"Successfully created the folder: {saves_folder_name}")
+            Logger.logger.debug(
+                f"Successfully created the folder: {results_folder_name}")
         finally:
             self._saves_dir = saves_dir
             self._result_dir = results_dir
@@ -101,11 +111,15 @@ class DataLoader:
     @logged
     def _fetch_data(self) -> List[dict]:
         """
-        Fetch the requested data  from the public servers for the specific requested journey
-        This query will return a list of travel times as well as benchmark travel times between
-        an origin-destination (O-D) pair during the time period defined in the call.
+        Fetch the requested data  from the public servers for the specific
+        requested journey
+        This query will return a list of travel times as well as benchmark
+        travel times between
+        an origin-destination (O-D) pair during the time period defined in
+        the call.
         Travel times are flagged if they  are above certain
-        A maximum time span of 7 days is allowed between from_datetime and to_datetime
+        A maximum time span of 7 days is allowed between from_datetime and
+        to_datetime
         :return:
         """
         departure_code, arrival_code = self.station_codes
@@ -117,13 +131,16 @@ class DataLoader:
         # Gather data from the last three years
         i_days = 0
         trips_data = []
-        Logger.logger.info(f"Starting pulling data until: {end_date.strftime('%d, %b %Y')}")
+        Logger.logger.info(
+            f"Starting pulling data until: {end_date.strftime('%d, %b %Y')}")
         while True:
             check_date = start_date + datetime.timedelta(days=i_days)
-            Logger.logger.debug(f"Fetching data from date: {check_date.strftime('%d, %b %Y')}")
+            Logger.logger.debug(
+                f"Fetching data from date: {check_date.strftime('%d, %b %Y')}")
             if check_date > end_date:
                 break
-            from_time = datetime.datetime.combine(date=check_date, time=start_time)
+            from_time = datetime.datetime.combine(date=check_date,
+                                                  time=start_time)
             to_time = datetime.datetime.combine(date=check_date, time=end_time)
             from_datetime = str(int(from_time.timestamp()))
             to_datetime = str(int(to_time.timestamp()))
@@ -140,15 +157,20 @@ class DataLoader:
                     as_json = response.json()["travel_times"]
                     for trip in as_json:
                         trips_data.append(
-                            {"departure": datetime.datetime.fromtimestamp(float(trip["dep_dt"])),
-                             "arrival": datetime.datetime.fromtimestamp(float(trip["arr_dt"])),
+                            {"departure": datetime.datetime.fromtimestamp(
+                                float(trip["dep_dt"])),
+                             "arrival": datetime.datetime.fromtimestamp(
+                                 float(trip["arr_dt"])),
                              "travel_time_sec": trip['travel_time_sec']
                              }
                         )
 
-                    Logger.logger.debug(f"Routes for: {check_date.strftime('%d, %b %Y')}: #{len(as_json)}")
+                    Logger.logger.debug(
+                        f"Routes for: {check_date.strftime('%d, %b %Y')}: #"
+                        f"{len(as_json)}")
                 else:
-                    Logger.logger.error(f"Bad request with code:{response.status_code}")
+                    Logger.logger.error(
+                        f"Bad request with code:{response.status_code}")
             except HTTPError as http_error:
                 Logger.logger.error(http_error)
 
@@ -158,7 +180,8 @@ class DataLoader:
     @logged
     def _get_station_codes(self, file_name: str) -> Tuple[int, int]:
         """
-        This methods retrieves the location codes for the requested departure and arrival stations (declared in the
+        This methods retrieves the location codes for the requested departure
+        and arrival stations (declared in the
         config) with the help of the station code -> stops file
         :return:
         """
@@ -166,25 +189,30 @@ class DataLoader:
             with zip_file.open('stops.txt') as stops_file:
                 data = pd.read_csv(stops_file)
                 df = pd.DataFrame(data,
-                                  columns=['stop_id', 'stop_name', 'stop_desc', 'stop_url'])
+                                  columns=['stop_id', 'stop_name', 'stop_desc',
+                                           'stop_url'])
                 start = df.loc[df['stop_desc'] == self.config['departure']]
                 departure_code = int(start['stop_id'].values)
                 stop = df.loc[df['stop_desc'] == self.config['arrival']]
                 arrival_code = int(stop['stop_id'].values)
-                Logger.logger.info(f"Departure location code is:{departure_code}")
+                Logger.logger.info(
+                    f"Departure location code is:{departure_code}")
                 Logger.logger.info(f"Arrival location code is:{arrival_code}")
                 return departure_code, arrival_code
 
     @staticmethod
-    def _download_station_codes(dataset_url: str, dataset_file_name: str) -> None:
+    def _download_station_codes(dataset_url: str,
+                                dataset_file_name: str) -> None:
         """
         Helper function for download the dataset.
         :return:
         """
         Logger.logger.debug("Downloading the data set for station codes...")
         try:
-            response = requests.get(url=dataset_url, headers={'User-agent': 'Mozilla/5.0'})
-            Logger.logger.debug(">Response status code is: {}".format(response.status_code))
+            response = requests.get(url=dataset_url,
+                                    headers={'User-agent': 'Mozilla/5.0'})
+            Logger.logger.debug(
+                ">Response status code is: {}".format(response.status_code))
             Logger.logger.debug(">Creating file ")
             with open(dataset_file_name, "wb") as writer:
                 writer.write(response.content)

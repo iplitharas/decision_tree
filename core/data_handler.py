@@ -9,7 +9,8 @@ import os
 
 
 class DataHandler:
-    def __init__(self, trips: List[dict], config: dict, saves_dir: str, results_dir: str):
+    def __init__(self, trips: List[dict], config: dict, saves_dir: str,
+                 results_dir: str):
         """
         Main properties:
             data_sets : returns the training and the testing data set.
@@ -32,7 +33,8 @@ class DataHandler:
         Tries to restore or re-calculate the relative arrival times
         """
         trips = None
-        arrival_checkpoint = os.path.join(self.saves_dir, "relative_arrival_times")
+        arrival_checkpoint = os.path.join(self.saves_dir,
+                                          "relative_arrival_times")
         try:
             trips = restore(file_path=arrival_checkpoint)
         except FileNotFoundError:
@@ -58,7 +60,8 @@ class DataHandler:
             return door_df
 
     @property
-    def data_sets(self, last_training_day: str = "2016-04-30") -> Tuple[pd.DataFrame, pd.DataFrame]:
+    def data_sets(self, last_training_day: str = "2016-04-30") -> \
+            Tuple[pd.DataFrame, pd.DataFrame]:
         """
         Based on the last_training day it split the data into
         training , testing data set
@@ -81,29 +84,39 @@ class DataHandler:
         This method evaluates the trained tree based on the requested data_set
         :param tree: The trained tree
         :param data_set: normally testing or evaluate training set
-        :return: The mean value of the deviation from the estimated departure and the original.
+        :return: The mean value of the deviation from the estimated departure
+        and the original.
         """
         dates_str = list(data_set.columns)
         features = self.create_features(dates_str)
         deviation = []
         errors = []
         for date_str in dates_str:
-            predicted_departure = tree.predict(features=features.loc[date_str, :])
+            predicted_departure = tree.predict(
+                features=features.loc[date_str, :])
             lateness = data_set.loc[:, date_str]
-            # from each -60 until 0 mins left from home we select the predicted on from the model.
+            # from each -60 until 0 mins left from home we select the
+            # predicted on from the model.
             label = lateness.loc[predicted_departure]
             if label > 0:
-                Logger.logger.error(f"Error predicted departure is:{predicted_departure} corresponding"
-                                    f" arrival for this departure is: {label}")
+                Logger.logger.error(
+                    f"Error predicted departure is:{predicted_departure} "
+                    f"corresponding"
+                    f" arrival for this departure is: {label}")
                 errors.append(label)
             deviation.append(label)
-            Logger.logger.debug(f"{date_str} estimated_departure {predicted_departure} deviation {deviation[-1]}")
+            Logger.logger.debug(
+                f"{date_str} estimated_departure {predicted_departure} "
+                f"deviation {deviation[-1]}")
 
         accuracy = ((len(deviation) - len(errors)) / len(deviation)) * 100
-        Logger.logger.info(f"Total errors are: {len(errors)}/{len(deviation)} accuracy is:{accuracy}%\n")
+        Logger.logger.info(
+            f"Total errors are: {len(errors)}/{len(deviation)} accuracy is:"
+            f"{accuracy}%\n")
         plt.plot(deviation, linestyle='none', marker='.')
         plt.ylabel('minutes late')
-        plt.title("Results on validation data set with {:.2f}% ".format(accuracy))
+        plt.title(
+            "Results on validation data set with {:.2f}% ".format(accuracy))
         plt.savefig(os.path.join(self.results_dir, "validations_results.pdf"),
                     format='pdf', dpi=1200)
         plt.show()
@@ -119,7 +132,8 @@ class DataHandler:
         """
         features = []
         for date in dates:
-            current_date = datetime.datetime.strptime(date, self.date_format).date()
+            current_date = datetime.datetime.strptime(date,
+                                                      self.date_format).date()
             current_week = current_date.weekday()
             current_month = current_date.month
             day_of_week = np.zeros(7)
@@ -168,14 +182,18 @@ class DataHandler:
         Logger.logger.debug(f"Cleaning data part...\n"
                             f"Target arrival at work hour:{target_hour}\n"
                             f"Target arrival at work minute:{target_minute}\n"
-                            f"Train departure time(min) relative to arrival time:{train_dep_min}mins\n"
-                            f"Train departure time(max) relative to arrival time:{train_dep_max}mins\n")
+                            f"Train departure time(min) relative to arrival "
+                            f"time:{train_dep_min}mins\n"
+                            f"Train departure time(max) relative to arrival "
+                            f"time:{train_dep_max}mins\n")
         minutes_per_hour = 60
         final_trips = []
         for trip in self.trips:
-            relative_departure = minutes_per_hour * (trip['departure'].hour - target_hour) + \
+            relative_departure = minutes_per_hour * (
+                    trip['departure'].hour - target_hour) + \
                                  trip['departure'].minute - target_minute
-            relative_arrival = minutes_per_hour * (trip["arrival"].hour - target_hour) + \
+            relative_arrival = minutes_per_hour * (
+                    trip["arrival"].hour - target_hour) + \
                                trip["arrival"].minute - target_minute
 
             if train_dep_min < relative_arrival <= train_dep_max:
@@ -199,34 +217,47 @@ class DataHandler:
         arrival_station_work = self.config['arrival_station_work']
 
         Logger.logger.debug(f"Cleaning data...\n"
-                            f"Home to departure station :{home_departure_station} mins\n"
-                            f"Arrival station to work :{arrival_station_work} mins\n"
-                            f"Train departure time(min) relative to arrival time:{train_dep_min} mins\n"
-                            f"Train departure time(max) relative to arrival time:{train_dep_max} mins\n")
+                            f"Home to departure station :"
+                            f"{home_departure_station} mins\n"
+                            f"Arrival station to work :{arrival_station_work} "
+                            f"mins\n"
+                            f"Train departure time(min) relative to arrival "
+                            f"time:{train_dep_min} mins\n"
+                            f"Train departure time(max) relative to arrival "
+                            f"time:{train_dep_max} mins\n")
         # create a new Data frame with minute by minute predictions
         for day in trips_df.loc[:, "date"].unique():
             date_str = day.strftime(self.date_format)
             trips_today = trips_df.loc[trips_df.loc[:, "date"] == day, :]
             door_arrival = np.zeros(train_dep_max - train_dep_min)
-            for i_row, door_departure in enumerate(np.arange(train_dep_min, train_dep_max)):
+            for i_row, door_departure in enumerate(
+                    np.arange(train_dep_min, train_dep_max)):
                 # find the next train departure
                 station_arrival = door_departure + home_departure_station
                 try:
                     # find for each minute all the departures >= station arrival
-                    idx = trips_today.loc[trips_today.loc[:, "departure"] >= station_arrival, "departure"].idxmin()
+                    idx = trips_today.loc[trips_today.loc[:,
+                                          "departure"] >= station_arrival,
+                                          "departure"].idxmin()
                     # append all of them + time from arrival station to work
-                    door_arrival[i_row] = trips_today.loc[idx, "arrival"] + arrival_station_work
+                    door_arrival[i_row] = trips_today.loc[
+                                              idx, "arrival"] + \
+                                          arrival_station_work
                 except Exception:
                     door_arrival[i_row] = np.nan
             # door arrival -> numpy array
-            door_arrivals[date_str] = pd.Series(door_arrival, index=np.arange(train_dep_min, train_dep_max))
+            door_arrivals[date_str] = pd.Series(door_arrival,
+                                                index=np.arange(train_dep_min,
+                                                                train_dep_max))
 
         return pd.DataFrame(door_arrivals).fillna(value=30, inplace=False)
 
     @logged
-    def _split_data_set(self, last_training_day) -> Tuple[pd.DataFrame, pd.DataFrame]:
+    def _split_data_set(self, last_training_day) -> Tuple[
+        pd.DataFrame, pd.DataFrame]:
         """
-        This method splits the data set -> Arrival times based on the last training day
+        This method splits the data set -> Arrival times based on the last
+        training day
         in training ,testing data set
         :param last_training_day:
         :return: Tuple[pd.DataFrame, pd.DataFrame]
@@ -234,7 +265,8 @@ class DataHandler:
         training = []
         testing = []
         door_df = self.arrival_times
-        last_training_day = datetime.datetime.strptime(last_training_day, self.date_format)
+        last_training_day = datetime.datetime.strptime(last_training_day,
+                                                       self.date_format)
         for date_str in door_df.columns:
             this_date = datetime.datetime.strptime(date_str, self.date_format)
             if this_date <= last_training_day:
