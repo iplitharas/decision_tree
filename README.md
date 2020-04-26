@@ -1,5 +1,5 @@
 # Decision Trees
-
+![image](./results/decision_tree.png)
 ## Define the problem
 Suppose we are in Boston and we want to be everyday at 9pm at work .
 Questions for answer:
@@ -16,3 +16,6 @@ https://cdn.mbta.com/sites/default/files/developers/2018-10-30-mbta-realtime-per
 A maximum time span of 7 days is allowed between from_datetime and to_datetime.
 Public key: https://cdn.mbta.com/sites/default/files/2017-11/api-public-key.txt
 
+#### All used constants are stored in the config.json
+#### modules are under the folder core
+![results](./results/validations_results.png)

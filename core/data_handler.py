@@ -117,8 +117,8 @@ class DataHandler:
         plt.ylabel('minutes late')
         plt.title(
             "Results on validation data set with {:.2f}% ".format(accuracy))
-        plt.savefig(os.path.join(self.results_dir, "validations_results.pdf"),
-                    format='pdf', dpi=1200)
+        plt.savefig(os.path.join(self.results_dir, "validations_results.png"),
+                    format='png')
         plt.show()
         return np.mean(np.abs(deviation))
 

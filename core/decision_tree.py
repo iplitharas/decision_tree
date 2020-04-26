@@ -257,8 +257,8 @@ class DecisionTree:
 
         recurse(node=self.root, level=initial_level, x=initial_x)
         plt.title("Decision tree")
-        plt.savefig(os.path.join(results_dir, "decision_tree.pdf"),
-                    format='pdf', dpi=1200)
+        plt.savefig(os.path.join(results_dir, "decision_tree.png"),
+                    format='png')
         plt.show()
 
 
