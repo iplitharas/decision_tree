@@ -1,790 +1,790 @@
-[2020-04-26 14:56:03,113:data_loader.py:88][DEBUG] >> Folder name: saves for saves already exists.
-[2020-04-26 14:56:03,113:data_loader.py:89][DEBUG] >> Folder name: results for results already exists.
-[2020-04-26 14:56:03,113:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\dataset
-[2020-04-26 14:56:03,133:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\training
-[2020-04-26 14:56:03,133:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\testing
-[2020-04-26 14:56:03,133:logger.py:42][INFO] >> Calling create_features
-[2020-04-26 14:56:03,143:logger.py:47][INFO] >> Called create_features for 0.01s
-[2020-04-26 14:56:03,143:logger.py:42][INFO] >> Calling train
-[2020-04-26 14:56:03,428:logger.py:47][INFO] >> Called train for 0.29s
-[2020-04-26 14:56:03,683:logger.py:42][INFO] >> Calling create_features
-[2020-04-26 14:56:03,716:logger.py:47][INFO] >> Called create_features for 0.03s
-[2020-04-26 14:56:03,719:data_handler.py:99][DEBUG] >> 2016-05-01 estimated_departure -43 deviation -3.0
-[2020-04-26 14:56:03,720:data_handler.py:99][DEBUG] >> 2016-05-02 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:03,721:data_handler.py:99][DEBUG] >> 2016-05-03 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:03,723:data_handler.py:99][DEBUG] >> 2016-05-04 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,726:data_handler.py:99][DEBUG] >> 2016-05-05 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,730:data_handler.py:99][DEBUG] >> 2016-05-06 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,731:data_handler.py:99][DEBUG] >> 2016-05-07 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:03,736:data_handler.py:99][DEBUG] >> 2016-05-08 estimated_departure -43 deviation -8.0
-[2020-04-26 14:56:03,736:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,736:data_handler.py:99][DEBUG] >> 2016-05-09 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:03,736:data_handler.py:99][DEBUG] >> 2016-05-10 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,736:data_handler.py:99][DEBUG] >> 2016-05-11 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,743:data_handler.py:99][DEBUG] >> 2016-05-12 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,743:data_handler.py:99][DEBUG] >> 2016-05-13 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,743:data_handler.py:99][DEBUG] >> 2016-05-14 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,753:data_handler.py:99][DEBUG] >> 2016-05-15 estimated_departure -43 deviation -4.0
-[2020-04-26 14:56:03,753:data_handler.py:99][DEBUG] >> 2016-05-16 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,758:data_handler.py:99][DEBUG] >> 2016-05-17 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,758:data_handler.py:99][DEBUG] >> 2016-05-18 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,758:data_handler.py:99][DEBUG] >> 2016-05-19 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,758:data_handler.py:99][DEBUG] >> 2016-05-20 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,758:data_handler.py:99][DEBUG] >> 2016-05-21 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-22 estimated_departure -43 deviation -9.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-23 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-24 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-25 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-26 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-27 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-28 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-29 estimated_departure -43 deviation -6.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-30 estimated_departure -50 deviation -10.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-05-31 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-06-01 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,763:data_handler.py:99][DEBUG] >> 2016-06-02 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,773:data_handler.py:99][DEBUG] >> 2016-06-03 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,773:data_handler.py:99][DEBUG] >> 2016-06-04 estimated_departure -46 deviation -3.0
-[2020-04-26 14:56:03,773:data_handler.py:99][DEBUG] >> 2016-06-05 estimated_departure -60 deviation -22.0
-[2020-04-26 14:56:03,773:data_handler.py:99][DEBUG] >> 2016-06-06 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,773:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,773:data_handler.py:99][DEBUG] >> 2016-06-07 estimated_departure -45 deviation 2.0
-[2020-04-26 14:56:03,778:data_handler.py:99][DEBUG] >> 2016-06-08 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,778:data_handler.py:99][DEBUG] >> 2016-06-09 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,778:data_handler.py:99][DEBUG] >> 2016-06-10 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,778:data_handler.py:99][DEBUG] >> 2016-06-11 estimated_departure -46 deviation 0.0
-[2020-04-26 14:56:03,778:data_handler.py:99][DEBUG] >> 2016-06-12 estimated_departure -60 deviation -23.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-13 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-14 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-15 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-16 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-17 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-18 estimated_departure -46 deviation -3.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-19 estimated_departure -60 deviation -22.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-20 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,783:data_handler.py:99][DEBUG] >> 2016-06-21 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,793:data_handler.py:99][DEBUG] >> 2016-06-22 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,793:data_handler.py:99][DEBUG] >> 2016-06-23 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,793:data_handler.py:99][DEBUG] >> 2016-06-24 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,793:data_handler.py:99][DEBUG] >> 2016-06-25 estimated_departure -46 deviation 0.0
-[2020-04-26 14:56:03,798:data_handler.py:99][DEBUG] >> 2016-06-26 estimated_departure -60 deviation -15.0
-[2020-04-26 14:56:03,798:data_handler.py:99][DEBUG] >> 2016-06-27 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,798:data_handler.py:99][DEBUG] >> 2016-06-28 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-06-29 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-06-30 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-07-01 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-07-02 estimated_departure -46 deviation -2.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-07-03 estimated_departure -60 deviation -16.0
-[2020-04-26 14:56:03,803:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-07-04 estimated_departure -45 deviation 3.0
-[2020-04-26 14:56:03,803:data_handler.py:99][DEBUG] >> 2016-07-05 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-06 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-07 estimated_departure -45 deviation -8.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-08 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,808:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-11 estimated_departure -45 deviation 30.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-12 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-13 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-14 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-15 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:03,808:data_handler.py:99][DEBUG] >> 2016-07-18 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:03,813:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-19 estimated_departure -45 deviation 1.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-20 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-21 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-22 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:03,813:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 5.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-23 estimated_departure -46 deviation 5.0
-[2020-04-26 14:56:03,813:data_handler.py:99][DEBUG] >> 2016-07-24 estimated_departure -60 deviation -23.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-25 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,818:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-26 estimated_departure -45 deviation 30.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-27 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-28 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-29 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-30 estimated_departure -46 deviation 0.0
-[2020-04-26 14:56:03,818:data_handler.py:99][DEBUG] >> 2016-07-31 estimated_departure -60 deviation -16.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-01 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-02 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-03 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-04 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-05 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:03,825:data_handler.py:99][DEBUG] >> 2016-08-06 estimated_departure -46 deviation -1.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-07 estimated_departure -60 deviation -16.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-08 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-09 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-10 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:03,833:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-11 estimated_departure -45 deviation 2.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-12 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-13 estimated_departure -46 deviation -8.0
-[2020-04-26 14:56:03,833:data_handler.py:99][DEBUG] >> 2016-08-14 estimated_departure -60 deviation -14.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-15 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,843:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-16 estimated_departure -45 deviation 1.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-17 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-18 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-19 estimated_departure -45 deviation -11.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-20 estimated_departure -46 deviation 0.0
-[2020-04-26 14:56:03,843:data_handler.py:99][DEBUG] >> 2016-08-21 estimated_departure -60 deviation -16.0
-[2020-04-26 14:56:03,848:data_handler.py:99][DEBUG] >> 2016-08-22 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:03,848:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:03,848:data_handler.py:99][DEBUG] >> 2016-08-23 estimated_departure -45 deviation 30.0
-[2020-04-26 14:56:03,848:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,848:data_handler.py:99][DEBUG] >> 2016-08-24 estimated_departure -45 deviation 2.0
-[2020-04-26 14:56:03,848:data_handler.py:99][DEBUG] >> 2016-08-25 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:03,848:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:03,848:data_handler.py:99][DEBUG] >> 2016-08-26 estimated_departure -45 deviation 7.0
-[2020-04-26 14:56:03,853:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-08-27 estimated_departure -46 deviation 3.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-08-28 estimated_departure -60 deviation -15.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-08-29 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:03,853:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-08-30 estimated_departure -45 deviation 3.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-08-31 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-09-01 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,853:data_handler.py:99][DEBUG] >> 2016-09-02 estimated_departure -47 deviation -7.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-03 estimated_departure -48 deviation -15.0
-[2020-04-26 14:56:03,858:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-04 estimated_departure -44 deviation 4.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-05 estimated_departure -47 deviation -15.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-06 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-07 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-08 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-09 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,858:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-12 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:03,858:data_handler.py:99][DEBUG] >> 2016-09-13 estimated_departure -47 deviation -11.0
-[2020-04-26 14:56:03,863:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-14 estimated_departure -47 deviation 7.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-15 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-16 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-17 estimated_departure -48 deviation -16.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-18 estimated_departure -44 deviation -9.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-19 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,863:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-20 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-21 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-22 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-23 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-24 estimated_departure -48 deviation -14.0
-[2020-04-26 14:56:03,863:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-25 estimated_departure -44 deviation 4.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-26 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,863:data_handler.py:99][DEBUG] >> 2016-09-27 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,873:data_handler.py:99][DEBUG] >> 2016-09-29 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,873:data_handler.py:99][DEBUG] >> 2016-09-30 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,873:data_handler.py:99][DEBUG] >> 2016-10-01 estimated_departure -48 deviation -15.0
-[2020-04-26 14:56:03,873:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,873:data_handler.py:99][DEBUG] >> 2016-10-02 estimated_departure -44 deviation 3.0
-[2020-04-26 14:56:03,878:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,878:data_handler.py:99][DEBUG] >> 2016-10-03 estimated_departure -47 deviation 3.0
-[2020-04-26 14:56:03,878:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,878:data_handler.py:99][DEBUG] >> 2016-10-04 estimated_departure -47 deviation 2.0
-[2020-04-26 14:56:03,878:data_handler.py:99][DEBUG] >> 2016-10-05 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,878:data_handler.py:99][DEBUG] >> 2016-10-06 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,878:data_handler.py:99][DEBUG] >> 2016-10-07 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-10 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-11 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-12 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-13 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-14 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-15 estimated_departure -48 deviation -2.0
-[2020-04-26 14:56:03,883:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:03,883:data_handler.py:99][DEBUG] >> 2016-10-16 estimated_departure -44 deviation 4.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-17 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:03,888:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-18 estimated_departure -47 deviation 8.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-19 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,888:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-20 estimated_departure -47 deviation 8.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-21 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,888:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-24 estimated_departure -47 deviation 4.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-25 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-26 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,888:data_handler.py:99][DEBUG] >> 2016-10-27 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:03,893:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-10-28 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:03,893:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-10-31 estimated_departure -47 deviation 3.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-01 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-02 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-03 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-04 estimated_departure -47 deviation -10.0
-[2020-04-26 14:56:03,893:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-07 estimated_departure -47 deviation 30.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-08 estimated_departure -47 deviation -12.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-09 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-10 estimated_departure -47 deviation -13.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-11 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-14 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-15 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-16 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,893:data_handler.py:99][DEBUG] >> 2016-11-17 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,903:data_handler.py:99][DEBUG] >> 2016-11-18 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:03,903:data_handler.py:99][DEBUG] >> 2016-11-22 estimated_departure -47 deviation -9.0
-[2020-04-26 14:56:03,903:data_handler.py:99][DEBUG] >> 2016-11-23 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,903:data_handler.py:99][DEBUG] >> 2016-11-24 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-11-25 estimated_departure -47 deviation -7.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-11-28 estimated_departure -47 deviation -7.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-11-29 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-11-30 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-12-01 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,908:data_handler.py:99][DEBUG] >> 2016-12-02 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:03,913:data_handler.py:99][DEBUG] >> 2016-12-05 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-06 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-07 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-08 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,918:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-09 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-12 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-13 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,918:data_handler.py:99][DEBUG] >> 2016-12-14 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,923:data_handler.py:99][DEBUG] >> 2016-12-15 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,923:data_handler.py:99][DEBUG] >> 2016-12-16 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-17 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-18 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-19 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-20 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-21 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,925:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-22 estimated_departure -50 deviation 4.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-23 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-24 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-25 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-26 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-27 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-28 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-29 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-30 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2016-12-31 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2017-01-01 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,925:data_handler.py:99][DEBUG] >> 2017-01-02 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-03 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,933:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 8.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-04 estimated_departure -50 deviation 8.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-05 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-06 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-07 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-08 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-09 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-10 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-11 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-12 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-13 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-14 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-15 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-16 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:03,933:data_handler.py:99][DEBUG] >> 2017-01-17 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-18 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,943:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-19 estimated_departure -50 deviation 7.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-20 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-21 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-22 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-23 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-24 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-25 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-26 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-27 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-28 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-29 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-30 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,943:data_handler.py:99][DEBUG] >> 2017-01-31 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,943:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,953:data_handler.py:99][DEBUG] >> 2017-02-01 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:03,958:data_handler.py:99][DEBUG] >> 2017-02-02 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,958:data_handler.py:99][DEBUG] >> 2017-02-03 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,958:data_handler.py:99][DEBUG] >> 2017-02-04 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,963:data_handler.py:99][DEBUG] >> 2017-02-05 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,963:data_handler.py:99][DEBUG] >> 2017-02-06 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:03,963:data_handler.py:99][DEBUG] >> 2017-02-07 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,963:data_handler.py:99][DEBUG] >> 2017-02-08 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,968:data_handler.py:99][DEBUG] >> 2017-02-09 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,968:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:03,968:data_handler.py:99][DEBUG] >> 2017-02-10 estimated_departure -50 deviation 30.0
-[2020-04-26 14:56:03,968:data_handler.py:99][DEBUG] >> 2017-02-11 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,968:data_handler.py:99][DEBUG] >> 2017-02-12 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:03,968:data_handler.py:99][DEBUG] >> 2017-02-13 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-14 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-15 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-16 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-17 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-18 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-19 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,973:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-20 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:03,973:data_handler.py:99][DEBUG] >> 2017-02-21 estimated_departure -50 deviation -10.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-22 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,978:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-23 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-24 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-25 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-26 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-27 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-02-28 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-03-01 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,978:data_handler.py:99][DEBUG] >> 2017-03-02 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-03 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-06 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-07 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-08 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-09 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-10 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:03,983:data_handler.py:99][DEBUG] >> 2017-03-13 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:03,988:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:03,988:data_handler.py:99][DEBUG] >> 2017-03-14 estimated_departure -50 deviation 6.0
-[2020-04-26 14:56:03,988:data_handler.py:99][DEBUG] >> 2017-03-15 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:03,988:data_handler.py:99][DEBUG] >> 2017-03-16 estimated_departure -50 deviation -10.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-17 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,993:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-18 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:03,993:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-19 estimated_departure -43 deviation 6.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-20 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-21 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-22 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-23 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-24 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-25 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-26 estimated_departure -43 deviation -2.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-27 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-28 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-29 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-30 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-03-31 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-04-01 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:03,993:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:03,993:data_handler.py:99][DEBUG] >> 2017-04-02 estimated_departure -43 deviation 1.0
-[2020-04-26 14:56:04,003:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,003:data_handler.py:99][DEBUG] >> 2017-04-03 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,003:data_handler.py:99][DEBUG] >> 2017-04-04 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:04,003:data_handler.py:99][DEBUG] >> 2017-04-05 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,003:data_handler.py:99][DEBUG] >> 2017-04-06 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,008:data_handler.py:99][DEBUG] >> 2017-04-07 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,008:data_handler.py:99][DEBUG] >> 2017-04-08 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:04,008:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,008:data_handler.py:99][DEBUG] >> 2017-04-09 estimated_departure -43 deviation 2.0
-[2020-04-26 14:56:04,008:data_handler.py:99][DEBUG] >> 2017-04-10 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,008:data_handler.py:99][DEBUG] >> 2017-04-11 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-12 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-13 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-14 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-15 estimated_departure -50 deviation -18.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-16 estimated_departure -43 deviation -8.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-17 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-18 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-19 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-20 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-21 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-22 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-23 estimated_departure -43 deviation 0.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-24 estimated_departure -50 deviation -17.0
-[2020-04-26 14:56:04,013:data_handler.py:99][DEBUG] >> 2017-04-25 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,023:data_handler.py:99][DEBUG] >> 2017-04-26 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-04-27 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-04-28 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-01 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-02 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-03 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-04 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-05 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-06 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-07 estimated_departure -43 deviation -1.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-08 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-09 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-10 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-11 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,025:data_handler.py:99][DEBUG] >> 2017-05-12 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-15 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-16 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-17 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-18 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-19 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-20 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,033:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-21 estimated_departure -43 deviation 1.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-22 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-23 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,033:data_handler.py:99][DEBUG] >> 2017-05-24 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-25 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-26 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-27 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,038:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-28 estimated_departure -43 deviation 4.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-29 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-30 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-05-31 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-06-01 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-06-02 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,038:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,038:data_handler.py:99][DEBUG] >> 2017-06-03 estimated_departure -46 deviation 1.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-04 estimated_departure -60 deviation -27.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-05 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-06 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-07 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-08 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-09 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-12 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,043:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,043:data_handler.py:99][DEBUG] >> 2017-06-13 estimated_departure -45 deviation 30.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-14 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-15 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-16 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-17 estimated_departure -46 deviation -14.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-18 estimated_departure -60 deviation -22.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-19 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-20 estimated_departure -45 deviation -10.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-21 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-22 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,048:data_handler.py:99][DEBUG] >> 2017-06-23 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-24 estimated_departure -46 deviation -4.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-25 estimated_departure -60 deviation -16.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-26 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-27 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-28 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-29 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-06-30 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-07-01 estimated_departure -46 deviation -2.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-07-02 estimated_departure -60 deviation -17.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-07-03 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,053:data_handler.py:99][DEBUG] >> 2017-07-04 estimated_departure -45 deviation -12.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-05 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-06 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-07 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-10 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-11 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-12 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-13 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-14 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,058:data_handler.py:99][DEBUG] >> 2017-07-15 estimated_departure -46 deviation 0.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-16 estimated_departure -60 deviation -13.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-17 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-18 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-19 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-20 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-21 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,063:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-22 estimated_departure -46 deviation 3.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-23 estimated_departure -60 deviation -6.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-24 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-25 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-26 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,063:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-27 estimated_departure -45 deviation 1.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-28 estimated_departure -45 deviation -1.0
-[2020-04-26 14:56:04,063:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-29 estimated_departure -46 deviation 2.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-30 estimated_departure -60 deviation -26.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-07-31 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,063:data_handler.py:99][DEBUG] >> 2017-08-01 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-02 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-03 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-04 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-05 estimated_departure -46 deviation -6.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-06 estimated_departure -60 deviation -13.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-07 estimated_departure -45 deviation -9.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-08 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-09 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-10 estimated_departure -45 deviation -5.0
-[2020-04-26 14:56:04,073:data_handler.py:99][DEBUG] >> 2017-08-11 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-12 estimated_departure -46 deviation -12.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-13 estimated_departure -60 deviation -7.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-14 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-15 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-16 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-17 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,078:data_handler.py:99][DEBUG] >> 2017-08-18 estimated_departure -45 deviation -7.0
-[2020-04-26 14:56:04,078:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-19 estimated_departure -46 deviation 7.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-20 estimated_departure -60 deviation -12.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-21 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-22 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-23 estimated_departure -45 deviation -3.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-24 estimated_departure -45 deviation 0.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-25 estimated_departure -45 deviation -6.0
-[2020-04-26 14:56:04,083:data_handler.py:95][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-26 estimated_departure -46 deviation 1.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-27 estimated_departure -60 deviation -10.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-28 estimated_departure -45 deviation -4.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-29 estimated_departure -45 deviation -2.0
-[2020-04-26 14:56:04,083:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-30 estimated_departure -45 deviation 1.0
-[2020-04-26 14:56:04,083:data_handler.py:95][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-08-31 estimated_departure -45 deviation 2.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-01 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-02 estimated_departure -48 deviation -13.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-03 estimated_departure -44 deviation -7.0
-[2020-04-26 14:56:04,083:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-04 estimated_departure -47 deviation 2.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-05 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:04,083:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 9.0
-[2020-04-26 14:56:04,083:data_handler.py:99][DEBUG] >> 2017-09-06 estimated_departure -47 deviation 9.0
-[2020-04-26 14:56:04,093:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-07 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-08 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-09 estimated_departure -48 deviation -15.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-10 estimated_departure -44 deviation -1.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-11 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,093:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-12 estimated_departure -47 deviation 30.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-13 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-14 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,093:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:04,093:data_handler.py:99][DEBUG] >> 2017-09-15 estimated_departure -47 deviation 7.0
-[2020-04-26 14:56:04,098:data_handler.py:99][DEBUG] >> 2017-09-16 estimated_departure -48 deviation -15.0
-[2020-04-26 14:56:04,098:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,103:data_handler.py:99][DEBUG] >> 2017-09-17 estimated_departure -44 deviation 2.0
-[2020-04-26 14:56:04,103:data_handler.py:99][DEBUG] >> 2017-09-18 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,103:data_handler.py:99][DEBUG] >> 2017-09-19 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,103:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,103:data_handler.py:99][DEBUG] >> 2017-09-20 estimated_departure -47 deviation 2.0
-[2020-04-26 14:56:04,108:data_handler.py:99][DEBUG] >> 2017-09-21 estimated_departure -47 deviation -10.0
-[2020-04-26 14:56:04,108:data_handler.py:99][DEBUG] >> 2017-09-22 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,108:data_handler.py:95][ERROR] >> Error predicted departure is:-48 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:04,108:data_handler.py:99][DEBUG] >> 2017-09-23 estimated_departure -48 deviation 7.0
-[2020-04-26 14:56:04,108:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 5.0
-[2020-04-26 14:56:04,108:data_handler.py:99][DEBUG] >> 2017-09-24 estimated_departure -44 deviation 5.0
-[2020-04-26 14:56:04,108:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 5.0
-[2020-04-26 14:56:04,108:data_handler.py:99][DEBUG] >> 2017-09-25 estimated_departure -47 deviation 5.0
-[2020-04-26 14:56:04,113:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,113:data_handler.py:99][DEBUG] >> 2017-09-26 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:04,113:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,113:data_handler.py:99][DEBUG] >> 2017-09-27 estimated_departure -47 deviation 2.0
-[2020-04-26 14:56:04,113:data_handler.py:99][DEBUG] >> 2017-09-28 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,113:data_handler.py:99][DEBUG] >> 2017-09-29 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,118:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:04,118:data_handler.py:99][DEBUG] >> 2017-10-02 estimated_departure -47 deviation 6.0
-[2020-04-26 14:56:04,118:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
-[2020-04-26 14:56:04,118:data_handler.py:99][DEBUG] >> 2017-10-03 estimated_departure -47 deviation 8.0
-[2020-04-26 14:56:04,118:data_handler.py:99][DEBUG] >> 2017-10-04 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,118:data_handler.py:99][DEBUG] >> 2017-10-05 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,118:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,118:data_handler.py:99][DEBUG] >> 2017-10-06 estimated_departure -47 deviation 4.0
-[2020-04-26 14:56:04,123:data_handler.py:99][DEBUG] >> 2017-10-09 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-10 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-11 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-12 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-13 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-16 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-17 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-18 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-19 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-20 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:04,125:data_handler.py:95][ERROR] >> Error predicted departure is:-48 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,125:data_handler.py:99][DEBUG] >> 2017-10-21 estimated_departure -48 deviation 2.0
-[2020-04-26 14:56:04,125:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-22 estimated_departure -44 deviation 2.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-23 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-24 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-25 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-26 estimated_departure -47 deviation 0.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-27 estimated_departure -47 deviation -6.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-30 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-10-31 estimated_departure -47 deviation -4.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-11-01 estimated_departure -47 deviation -7.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-11-02 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:04,133:data_handler.py:99][DEBUG] >> 2017-11-03 estimated_departure -47 deviation -7.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-06 estimated_departure -47 deviation -13.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-07 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-08 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-09 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-10 estimated_departure -47 deviation -1.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-13 estimated_departure -47 deviation -11.0
-[2020-04-26 14:56:04,138:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-14 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-15 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,138:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-16 estimated_departure -47 deviation 3.0
-[2020-04-26 14:56:04,138:data_handler.py:99][DEBUG] >> 2017-11-17 estimated_departure -47 deviation -5.0
-[2020-04-26 14:56:04,143:data_handler.py:99][DEBUG] >> 2017-11-18 estimated_departure -48 deviation -12.0
-[2020-04-26 14:56:04,143:data_handler.py:95][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,143:data_handler.py:99][DEBUG] >> 2017-11-19 estimated_departure -44 deviation 4.0
-[2020-04-26 14:56:04,143:data_handler.py:99][DEBUG] >> 2017-11-20 estimated_departure -47 deviation -2.0
-[2020-04-26 14:56:04,148:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,148:data_handler.py:99][DEBUG] >> 2017-11-21 estimated_departure -47 deviation 30.0
-[2020-04-26 14:56:04,148:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,148:data_handler.py:99][DEBUG] >> 2017-11-22 estimated_departure -47 deviation 4.0
-[2020-04-26 14:56:04,148:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,148:data_handler.py:99][DEBUG] >> 2017-11-23 estimated_departure -47 deviation 3.0
-[2020-04-26 14:56:04,148:data_handler.py:99][DEBUG] >> 2017-11-24 estimated_departure -47 deviation -3.0
-[2020-04-26 14:56:04,148:data_handler.py:99][DEBUG] >> 2017-11-25 estimated_departure -48 deviation -14.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-11-26 estimated_departure -44 deviation -8.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-11-27 estimated_departure -47 deviation -9.0
-[2020-04-26 14:56:04,153:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-11-28 estimated_departure -47 deviation 4.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-11-29 estimated_departure -47 deviation -13.0
-[2020-04-26 14:56:04,153:data_handler.py:95][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-11-30 estimated_departure -47 deviation 1.0
-[2020-04-26 14:56:04,153:data_handler.py:99][DEBUG] >> 2017-12-01 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-04 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-05 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-06 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-07 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-08 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,158:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-11 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,158:data_handler.py:99][DEBUG] >> 2017-12-12 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,163:data_handler.py:99][DEBUG] >> 2017-12-13 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,163:data_handler.py:99][DEBUG] >> 2017-12-14 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,163:data_handler.py:99][DEBUG] >> 2017-12-15 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,168:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-18 estimated_departure -50 deviation 4.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-19 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-20 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-21 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-22 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,168:data_handler.py:99][DEBUG] >> 2017-12-23 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-24 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-25 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-26 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-27 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:04,173:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 9.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-28 estimated_departure -50 deviation 9.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-29 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-30 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,173:data_handler.py:99][DEBUG] >> 2017-12-31 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-01 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-02 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-03 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,178:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-04 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-05 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,178:data_handler.py:99][DEBUG] >> 2018-01-06 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,183:data_handler.py:99][DEBUG] >> 2018-01-07 estimated_departure -50 deviation -10.0
-[2020-04-26 14:56:04,183:data_handler.py:99][DEBUG] >> 2018-01-08 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,188:data_handler.py:99][DEBUG] >> 2018-01-09 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,189:data_handler.py:99][DEBUG] >> 2018-01-10 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,190:data_handler.py:99][DEBUG] >> 2018-01-11 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,191:data_handler.py:99][DEBUG] >> 2018-01-12 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,191:data_handler.py:99][DEBUG] >> 2018-01-13 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,192:data_handler.py:99][DEBUG] >> 2018-01-14 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,192:data_handler.py:99][DEBUG] >> 2018-01-15 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:04,193:data_handler.py:99][DEBUG] >> 2018-01-16 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,193:data_handler.py:99][DEBUG] >> 2018-01-17 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,194:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,194:data_handler.py:99][DEBUG] >> 2018-01-18 estimated_departure -50 deviation 30.0
-[2020-04-26 14:56:04,194:data_handler.py:99][DEBUG] >> 2018-01-19 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,195:data_handler.py:99][DEBUG] >> 2018-01-20 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,195:data_handler.py:99][DEBUG] >> 2018-01-21 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,196:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,196:data_handler.py:99][DEBUG] >> 2018-01-22 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,196:data_handler.py:99][DEBUG] >> 2018-01-23 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,197:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:04,197:data_handler.py:99][DEBUG] >> 2018-01-24 estimated_departure -50 deviation 6.0
-[2020-04-26 14:56:04,198:data_handler.py:99][DEBUG] >> 2018-01-25 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,199:data_handler.py:99][DEBUG] >> 2018-01-26 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,200:data_handler.py:99][DEBUG] >> 2018-01-27 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,201:data_handler.py:99][DEBUG] >> 2018-01-28 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,202:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 5.0
-[2020-04-26 14:56:04,202:data_handler.py:99][DEBUG] >> 2018-01-29 estimated_departure -50 deviation 5.0
-[2020-04-26 14:56:04,202:data_handler.py:99][DEBUG] >> 2018-01-30 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,203:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,203:data_handler.py:99][DEBUG] >> 2018-01-31 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:04,203:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,203:data_handler.py:99][DEBUG] >> 2018-02-01 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:04,204:data_handler.py:99][DEBUG] >> 2018-02-02 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,204:data_handler.py:99][DEBUG] >> 2018-02-03 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,205:data_handler.py:99][DEBUG] >> 2018-02-04 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,205:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,205:data_handler.py:99][DEBUG] >> 2018-02-05 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:04,206:data_handler.py:99][DEBUG] >> 2018-02-06 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,206:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:04,206:data_handler.py:99][DEBUG] >> 2018-02-07 estimated_departure -50 deviation 6.0
-[2020-04-26 14:56:04,207:data_handler.py:99][DEBUG] >> 2018-02-08 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,207:data_handler.py:99][DEBUG] >> 2018-02-09 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,208:data_handler.py:99][DEBUG] >> 2018-02-10 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,209:data_handler.py:99][DEBUG] >> 2018-02-11 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,210:data_handler.py:99][DEBUG] >> 2018-02-12 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,212:data_handler.py:99][DEBUG] >> 2018-02-13 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,213:data_handler.py:99][DEBUG] >> 2018-02-14 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,214:data_handler.py:99][DEBUG] >> 2018-02-15 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,214:data_handler.py:99][DEBUG] >> 2018-02-16 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,215:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-17 estimated_departure -50 deviation 30.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-18 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-19 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-20 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-22 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-23 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-24 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-25 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-26 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-27 estimated_departure -50 deviation -16.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-02-28 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-03-01 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-03-02 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-03-03 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-03-04 estimated_departure -43 deviation 0.0
-[2020-04-26 14:56:04,216:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
-[2020-04-26 14:56:04,216:data_handler.py:99][DEBUG] >> 2018-03-05 estimated_departure -50 deviation 2.0
-[2020-04-26 14:56:04,223:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,223:data_handler.py:99][DEBUG] >> 2018-03-06 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:04,223:data_handler.py:99][DEBUG] >> 2018-03-07 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,223:data_handler.py:99][DEBUG] >> 2018-03-08 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,223:data_handler.py:99][DEBUG] >> 2018-03-09 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-10 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,225:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-11 estimated_departure -43 deviation 1.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-12 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-13 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-14 estimated_departure -50 deviation -15.0
-[2020-04-26 14:56:04,225:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-15 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-16 estimated_departure -50 deviation -6.0
-[2020-04-26 14:56:04,225:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-17 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-18 estimated_departure -43 deviation -3.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-19 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-20 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,225:data_handler.py:99][DEBUG] >> 2018-03-21 estimated_departure -50 deviation -5.0
-[2020-04-26 14:56:04,233:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-22 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:04,233:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 7.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-23 estimated_departure -50 deviation 7.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-24 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,233:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-25 estimated_departure -43 deviation 4.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-26 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-27 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-28 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,233:data_handler.py:99][DEBUG] >> 2018-03-29 estimated_departure -50 deviation -13.0
-[2020-04-26 14:56:04,243:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-03-30 estimated_departure -50 deviation 1.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-03-31 estimated_departure -50 deviation -7.0
-[2020-04-26 14:56:04,243:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-01 estimated_departure -43 deviation 3.0
-[2020-04-26 14:56:04,243:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-02 estimated_departure -50 deviation 4.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-03 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-04 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-05 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-06 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-07 estimated_departure -50 deviation -11.0
-[2020-04-26 14:56:04,243:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 6.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-08 estimated_departure -43 deviation 6.0
-[2020-04-26 14:56:04,243:data_handler.py:99][DEBUG] >> 2018-04-09 estimated_departure -50 deviation -1.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-10 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-11 estimated_departure -50 deviation -8.0
-[2020-04-26 14:56:04,253:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-12 estimated_departure -50 deviation 3.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-13 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-14 estimated_departure -50 deviation -9.0
-[2020-04-26 14:56:04,253:data_handler.py:95][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 30.0
-[2020-04-26 14:56:04,253:data_handler.py:99][DEBUG] >> 2018-04-15 estimated_departure -43 deviation 30.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-16 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-17 estimated_departure -50 deviation -14.0
-[2020-04-26 14:56:04,258:data_handler.py:95][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 5.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-18 estimated_departure -50 deviation 5.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-19 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-20 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-23 estimated_departure -50 deviation -4.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-24 estimated_departure -50 deviation -12.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-25 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-26 estimated_departure -50 deviation -2.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-27 estimated_departure -50 deviation -3.0
-[2020-04-26 14:56:04,258:data_handler.py:99][DEBUG] >> 2018-04-30 estimated_departure -50 deviation 0.0
-[2020-04-26 14:56:04,263:data_handler.py:99][DEBUG] >> 2018-05-01 estimated_departure -50 deviation -10.0
-[2020-04-26 14:56:04,263:data_handler.py:102][INFO] >> Total errors are: 107/670 accuracy is:84.02985074626865%
+[2020-04-26 15:00:57,793:data_loader.py:92][DEBUG] >> Folder name: saves for saves already exists.
+[2020-04-26 15:00:57,793:data_loader.py:93][DEBUG] >> Folder name: results for results already exists.
+[2020-04-26 15:00:57,793:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\dataset
+[2020-04-26 15:00:57,813:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\training
+[2020-04-26 15:00:57,813:helpers.py:12][DEBUG] >> Trying to restore checkpoint from:C:\Users\iplitharas\PycharmProjects\myPython\Decision_trees\saves\testing
+[2020-04-26 15:00:57,813:logger.py:42][INFO] >> Calling create_features
+[2020-04-26 15:00:57,828:logger.py:47][INFO] >> Called create_features for 0.02s
+[2020-04-26 15:00:57,828:logger.py:42][INFO] >> Calling train
+[2020-04-26 15:00:58,143:logger.py:47][INFO] >> Called train for 0.31s
+[2020-04-26 15:00:58,383:logger.py:42][INFO] >> Calling create_features
+[2020-04-26 15:00:58,413:logger.py:47][INFO] >> Called create_features for 0.03s
+[2020-04-26 15:00:58,418:data_handler.py:100][DEBUG] >> 2016-05-01 estimated_departure -43 deviation -3.0
+[2020-04-26 15:00:58,418:data_handler.py:100][DEBUG] >> 2016-05-02 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,418:data_handler.py:100][DEBUG] >> 2016-05-03 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,423:data_handler.py:100][DEBUG] >> 2016-05-04 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,423:data_handler.py:100][DEBUG] >> 2016-05-05 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,423:data_handler.py:100][DEBUG] >> 2016-05-06 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,423:data_handler.py:100][DEBUG] >> 2016-05-07 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,428:data_handler.py:100][DEBUG] >> 2016-05-08 estimated_departure -43 deviation -8.0
+[2020-04-26 15:00:58,428:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,428:data_handler.py:100][DEBUG] >> 2016-05-09 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,428:data_handler.py:100][DEBUG] >> 2016-05-10 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,428:data_handler.py:100][DEBUG] >> 2016-05-11 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-12 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-13 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-14 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-15 estimated_departure -43 deviation -4.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-16 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-17 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-18 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,433:data_handler.py:100][DEBUG] >> 2016-05-19 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-20 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-21 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-22 estimated_departure -43 deviation -9.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-23 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-24 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-25 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-26 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-27 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-28 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,443:data_handler.py:100][DEBUG] >> 2016-05-29 estimated_departure -43 deviation -6.0
+[2020-04-26 15:00:58,453:data_handler.py:100][DEBUG] >> 2016-05-30 estimated_departure -50 deviation -10.0
+[2020-04-26 15:00:58,453:data_handler.py:100][DEBUG] >> 2016-05-31 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,453:data_handler.py:100][DEBUG] >> 2016-06-01 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,456:data_handler.py:100][DEBUG] >> 2016-06-02 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,456:data_handler.py:100][DEBUG] >> 2016-06-03 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,456:data_handler.py:100][DEBUG] >> 2016-06-04 estimated_departure -46 deviation -3.0
+[2020-04-26 15:00:58,456:data_handler.py:100][DEBUG] >> 2016-06-05 estimated_departure -60 deviation -22.0
+[2020-04-26 15:00:58,456:data_handler.py:100][DEBUG] >> 2016-06-06 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,463:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-07 estimated_departure -45 deviation 2.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-08 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-09 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-10 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-11 estimated_departure -46 deviation 0.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-12 estimated_departure -60 deviation -23.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-13 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-14 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-15 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,463:data_handler.py:100][DEBUG] >> 2016-06-16 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-17 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-18 estimated_departure -46 deviation -3.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-19 estimated_departure -60 deviation -22.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-20 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-21 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-22 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,473:data_handler.py:100][DEBUG] >> 2016-06-23 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-24 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-25 estimated_departure -46 deviation 0.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-26 estimated_departure -60 deviation -15.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-27 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-28 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-29 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-06-30 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-07-01 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,478:data_handler.py:100][DEBUG] >> 2016-07-02 estimated_departure -46 deviation -2.0
+[2020-04-26 15:00:58,483:data_handler.py:100][DEBUG] >> 2016-07-03 estimated_departure -60 deviation -16.0
+[2020-04-26 15:00:58,483:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,483:data_handler.py:100][DEBUG] >> 2016-07-04 estimated_departure -45 deviation 3.0
+[2020-04-26 15:00:58,483:data_handler.py:100][DEBUG] >> 2016-07-05 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,483:data_handler.py:100][DEBUG] >> 2016-07-06 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,483:data_handler.py:100][DEBUG] >> 2016-07-07 estimated_departure -45 deviation -8.0
+[2020-04-26 15:00:58,488:data_handler.py:100][DEBUG] >> 2016-07-08 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,488:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,488:data_handler.py:100][DEBUG] >> 2016-07-11 estimated_departure -45 deviation 30.0
+[2020-04-26 15:00:58,488:data_handler.py:100][DEBUG] >> 2016-07-12 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,488:data_handler.py:100][DEBUG] >> 2016-07-13 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,488:data_handler.py:100][DEBUG] >> 2016-07-14 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-15 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-18 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,493:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-19 estimated_departure -45 deviation 1.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-20 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-21 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-22 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,493:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 5.0
+[2020-04-26 15:00:58,493:data_handler.py:100][DEBUG] >> 2016-07-23 estimated_departure -46 deviation 5.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-24 estimated_departure -60 deviation -23.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-25 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,498:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-26 estimated_departure -45 deviation 30.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-27 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-28 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-29 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-30 estimated_departure -46 deviation 0.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-07-31 estimated_departure -60 deviation -16.0
+[2020-04-26 15:00:58,498:data_handler.py:100][DEBUG] >> 2016-08-01 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-02 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-03 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-04 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-05 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-06 estimated_departure -46 deviation -1.0
+[2020-04-26 15:00:58,503:data_handler.py:100][DEBUG] >> 2016-08-07 estimated_departure -60 deviation -16.0
+[2020-04-26 15:00:58,508:data_handler.py:100][DEBUG] >> 2016-08-08 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,508:data_handler.py:100][DEBUG] >> 2016-08-09 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,508:data_handler.py:100][DEBUG] >> 2016-08-10 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,508:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,508:data_handler.py:100][DEBUG] >> 2016-08-11 estimated_departure -45 deviation 2.0
+[2020-04-26 15:00:58,508:data_handler.py:100][DEBUG] >> 2016-08-12 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-13 estimated_departure -46 deviation -8.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-14 estimated_departure -60 deviation -14.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-15 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,513:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-16 estimated_departure -45 deviation 1.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-17 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,513:data_handler.py:100][DEBUG] >> 2016-08-18 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-19 estimated_departure -45 deviation -11.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-20 estimated_departure -46 deviation 0.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-21 estimated_departure -60 deviation -16.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-22 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,518:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-23 estimated_departure -45 deviation 30.0
+[2020-04-26 15:00:58,518:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-24 estimated_departure -45 deviation 2.0
+[2020-04-26 15:00:58,518:data_handler.py:100][DEBUG] >> 2016-08-25 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,518:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,523:data_handler.py:100][DEBUG] >> 2016-08-26 estimated_departure -45 deviation 7.0
+[2020-04-26 15:00:58,523:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,523:data_handler.py:100][DEBUG] >> 2016-08-27 estimated_departure -46 deviation 3.0
+[2020-04-26 15:00:58,523:data_handler.py:100][DEBUG] >> 2016-08-28 estimated_departure -60 deviation -15.0
+[2020-04-26 15:00:58,523:data_handler.py:100][DEBUG] >> 2016-08-29 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,523:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,525:data_handler.py:100][DEBUG] >> 2016-08-30 estimated_departure -45 deviation 3.0
+[2020-04-26 15:00:58,526:data_handler.py:100][DEBUG] >> 2016-08-31 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,526:data_handler.py:100][DEBUG] >> 2016-09-01 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,527:data_handler.py:100][DEBUG] >> 2016-09-02 estimated_departure -47 deviation -7.0
+[2020-04-26 15:00:58,527:data_handler.py:100][DEBUG] >> 2016-09-03 estimated_departure -48 deviation -15.0
+[2020-04-26 15:00:58,528:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,528:data_handler.py:100][DEBUG] >> 2016-09-04 estimated_departure -44 deviation 4.0
+[2020-04-26 15:00:58,528:data_handler.py:100][DEBUG] >> 2016-09-05 estimated_departure -47 deviation -15.0
+[2020-04-26 15:00:58,529:data_handler.py:100][DEBUG] >> 2016-09-06 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,530:data_handler.py:100][DEBUG] >> 2016-09-07 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,530:data_handler.py:100][DEBUG] >> 2016-09-08 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,531:data_handler.py:100][DEBUG] >> 2016-09-09 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,531:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,531:data_handler.py:100][DEBUG] >> 2016-09-12 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,532:data_handler.py:100][DEBUG] >> 2016-09-13 estimated_departure -47 deviation -11.0
+[2020-04-26 15:00:58,532:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,532:data_handler.py:100][DEBUG] >> 2016-09-14 estimated_departure -47 deviation 7.0
+[2020-04-26 15:00:58,533:data_handler.py:100][DEBUG] >> 2016-09-15 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,533:data_handler.py:100][DEBUG] >> 2016-09-16 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,534:data_handler.py:100][DEBUG] >> 2016-09-17 estimated_departure -48 deviation -16.0
+[2020-04-26 15:00:58,534:data_handler.py:100][DEBUG] >> 2016-09-18 estimated_departure -44 deviation -9.0
+[2020-04-26 15:00:58,535:data_handler.py:100][DEBUG] >> 2016-09-19 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,535:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,535:data_handler.py:100][DEBUG] >> 2016-09-20 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,536:data_handler.py:100][DEBUG] >> 2016-09-21 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,536:data_handler.py:100][DEBUG] >> 2016-09-22 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,536:data_handler.py:100][DEBUG] >> 2016-09-23 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,537:data_handler.py:100][DEBUG] >> 2016-09-24 estimated_departure -48 deviation -14.0
+[2020-04-26 15:00:58,537:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,538:data_handler.py:100][DEBUG] >> 2016-09-25 estimated_departure -44 deviation 4.0
+[2020-04-26 15:00:58,539:data_handler.py:100][DEBUG] >> 2016-09-26 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,540:data_handler.py:100][DEBUG] >> 2016-09-27 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,540:data_handler.py:100][DEBUG] >> 2016-09-29 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,541:data_handler.py:100][DEBUG] >> 2016-09-30 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,541:data_handler.py:100][DEBUG] >> 2016-10-01 estimated_departure -48 deviation -15.0
+[2020-04-26 15:00:58,542:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,542:data_handler.py:100][DEBUG] >> 2016-10-02 estimated_departure -44 deviation 3.0
+[2020-04-26 15:00:58,542:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,542:data_handler.py:100][DEBUG] >> 2016-10-03 estimated_departure -47 deviation 3.0
+[2020-04-26 15:00:58,543:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,543:data_handler.py:100][DEBUG] >> 2016-10-04 estimated_departure -47 deviation 2.0
+[2020-04-26 15:00:58,543:data_handler.py:100][DEBUG] >> 2016-10-05 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,544:data_handler.py:100][DEBUG] >> 2016-10-06 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,544:data_handler.py:100][DEBUG] >> 2016-10-07 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,545:data_handler.py:100][DEBUG] >> 2016-10-10 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,545:data_handler.py:100][DEBUG] >> 2016-10-11 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-12 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-13 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-14 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-15 estimated_departure -48 deviation -2.0
+[2020-04-26 15:00:58,546:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-16 estimated_departure -44 deviation 4.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-17 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,546:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-18 estimated_departure -47 deviation 8.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-19 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,546:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-20 estimated_departure -47 deviation 8.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-21 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,546:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-24 estimated_departure -47 deviation 4.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-25 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,546:data_handler.py:100][DEBUG] >> 2016-10-26 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-10-27 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,553:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-10-28 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,553:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-10-31 estimated_departure -47 deviation 3.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-11-01 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-11-02 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-11-03 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,553:data_handler.py:100][DEBUG] >> 2016-11-04 estimated_departure -47 deviation -10.0
+[2020-04-26 15:00:58,556:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-07 estimated_departure -47 deviation 30.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-08 estimated_departure -47 deviation -12.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-09 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-10 estimated_departure -47 deviation -13.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-11 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-14 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,556:data_handler.py:100][DEBUG] >> 2016-11-15 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-16 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-17 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-18 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-22 estimated_departure -47 deviation -9.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-23 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-24 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-25 estimated_departure -47 deviation -7.0
+[2020-04-26 15:00:58,563:data_handler.py:100][DEBUG] >> 2016-11-28 estimated_departure -47 deviation -7.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-11-29 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-11-30 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-01 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-02 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-05 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-06 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-07 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-08 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,568:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-09 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-12 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,568:data_handler.py:100][DEBUG] >> 2016-12-13 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-14 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-15 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-16 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-17 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-18 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-19 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-20 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-21 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,573:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-22 estimated_departure -50 deviation 4.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-23 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-24 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,573:data_handler.py:100][DEBUG] >> 2016-12-25 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,578:data_handler.py:100][DEBUG] >> 2016-12-26 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,578:data_handler.py:100][DEBUG] >> 2016-12-27 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,578:data_handler.py:100][DEBUG] >> 2016-12-28 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,578:data_handler.py:100][DEBUG] >> 2016-12-29 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,578:data_handler.py:100][DEBUG] >> 2016-12-30 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2016-12-31 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-01 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-02 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-03 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,583:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 8.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-04 estimated_departure -50 deviation 8.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-05 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-06 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-07 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-08 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-09 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-10 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-11 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-12 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-13 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-14 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-15 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-16 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-17 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-18 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,583:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,583:data_handler.py:100][DEBUG] >> 2017-01-19 estimated_departure -50 deviation 7.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-20 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-21 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-22 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-23 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-24 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-25 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-26 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-27 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-28 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-29 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-30 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,593:data_handler.py:100][DEBUG] >> 2017-01-31 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,598:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,598:data_handler.py:100][DEBUG] >> 2017-02-01 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,598:data_handler.py:100][DEBUG] >> 2017-02-02 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,598:data_handler.py:100][DEBUG] >> 2017-02-03 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-04 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-05 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-06 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-07 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-08 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-09 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,603:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-10 estimated_departure -50 deviation 30.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-11 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-12 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-13 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-14 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-15 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-16 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-17 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-18 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-19 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,603:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,603:data_handler.py:100][DEBUG] >> 2017-02-20 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-21 estimated_departure -50 deviation -10.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-22 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,613:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-23 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-24 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-25 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,613:data_handler.py:100][DEBUG] >> 2017-02-26 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-02-27 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-02-28 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-01 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-02 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-03 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-06 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-07 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,618:data_handler.py:100][DEBUG] >> 2017-03-08 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-09 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-10 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-13 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,623:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-14 estimated_departure -50 deviation 6.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-15 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-16 estimated_departure -50 deviation -10.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-17 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,623:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-18 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,623:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-19 estimated_departure -43 deviation 6.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-20 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-21 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,623:data_handler.py:100][DEBUG] >> 2017-03-22 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-23 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-24 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-25 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-26 estimated_departure -43 deviation -2.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-27 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-28 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-29 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-30 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-03-31 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,633:data_handler.py:100][DEBUG] >> 2017-04-01 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,638:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-02 estimated_departure -43 deviation 1.0
+[2020-04-26 15:00:58,638:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-03 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-04 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-05 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-06 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-07 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-08 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,638:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,638:data_handler.py:100][DEBUG] >> 2017-04-09 estimated_departure -43 deviation 2.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-10 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-11 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-12 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-13 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-14 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-15 estimated_departure -50 deviation -18.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-16 estimated_departure -43 deviation -8.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-17 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-18 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-19 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-20 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-21 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-22 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-23 estimated_departure -43 deviation 0.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-24 estimated_departure -50 deviation -17.0
+[2020-04-26 15:00:58,643:data_handler.py:100][DEBUG] >> 2017-04-25 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-04-26 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-04-27 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-04-28 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-05-01 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-05-02 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,653:data_handler.py:100][DEBUG] >> 2017-05-03 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-04 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-05 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-06 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-07 estimated_departure -43 deviation -1.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-08 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-09 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-10 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-11 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-12 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-15 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-16 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-17 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-18 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-19 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,656:data_handler.py:100][DEBUG] >> 2017-05-20 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,663:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-21 estimated_departure -43 deviation 1.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-22 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-23 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-24 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-25 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-26 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-27 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,663:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-28 estimated_departure -43 deviation 4.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-29 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-30 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-05-31 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-06-01 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-06-02 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,663:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,663:data_handler.py:100][DEBUG] >> 2017-06-03 estimated_departure -46 deviation 1.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-04 estimated_departure -60 deviation -27.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-05 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-06 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-07 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-08 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-09 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-12 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,673:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-13 estimated_departure -45 deviation 30.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-14 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-15 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,673:data_handler.py:100][DEBUG] >> 2017-06-16 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-17 estimated_departure -46 deviation -14.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-18 estimated_departure -60 deviation -22.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-19 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-20 estimated_departure -45 deviation -10.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-21 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-22 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-23 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-24 estimated_departure -46 deviation -4.0
+[2020-04-26 15:00:58,678:data_handler.py:100][DEBUG] >> 2017-06-25 estimated_departure -60 deviation -16.0
+[2020-04-26 15:00:58,683:data_handler.py:100][DEBUG] >> 2017-06-26 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,683:data_handler.py:100][DEBUG] >> 2017-06-27 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,683:data_handler.py:100][DEBUG] >> 2017-06-28 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,688:data_handler.py:100][DEBUG] >> 2017-06-29 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,688:data_handler.py:100][DEBUG] >> 2017-06-30 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,688:data_handler.py:100][DEBUG] >> 2017-07-01 estimated_departure -46 deviation -2.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-02 estimated_departure -60 deviation -17.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-03 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-04 estimated_departure -45 deviation -12.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-05 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-06 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-07 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-10 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-11 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,693:data_handler.py:100][DEBUG] >> 2017-07-12 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-13 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-14 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-15 estimated_departure -46 deviation 0.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-16 estimated_departure -60 deviation -13.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-17 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-18 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-19 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-20 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,698:data_handler.py:100][DEBUG] >> 2017-07-21 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,698:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,703:data_handler.py:100][DEBUG] >> 2017-07-22 estimated_departure -46 deviation 3.0
+[2020-04-26 15:00:58,703:data_handler.py:100][DEBUG] >> 2017-07-23 estimated_departure -60 deviation -6.0
+[2020-04-26 15:00:58,703:data_handler.py:100][DEBUG] >> 2017-07-24 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,703:data_handler.py:100][DEBUG] >> 2017-07-25 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,703:data_handler.py:100][DEBUG] >> 2017-07-26 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,708:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-07-27 estimated_departure -45 deviation 1.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-07-28 estimated_departure -45 deviation -1.0
+[2020-04-26 15:00:58,708:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-07-29 estimated_departure -46 deviation 2.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-07-30 estimated_departure -60 deviation -26.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-07-31 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-01 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-02 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-03 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-04 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-05 estimated_departure -46 deviation -6.0
+[2020-04-26 15:00:58,708:data_handler.py:100][DEBUG] >> 2017-08-06 estimated_departure -60 deviation -13.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-07 estimated_departure -45 deviation -9.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-08 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-09 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-10 estimated_departure -45 deviation -5.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-11 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-12 estimated_departure -46 deviation -12.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-13 estimated_departure -60 deviation -7.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-14 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-15 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-16 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,713:data_handler.py:100][DEBUG] >> 2017-08-17 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-18 estimated_departure -45 deviation -7.0
+[2020-04-26 15:00:58,718:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-19 estimated_departure -46 deviation 7.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-20 estimated_departure -60 deviation -12.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-21 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-22 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-23 estimated_departure -45 deviation -3.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-24 estimated_departure -45 deviation 0.0
+[2020-04-26 15:00:58,718:data_handler.py:100][DEBUG] >> 2017-08-25 estimated_departure -45 deviation -6.0
+[2020-04-26 15:00:58,718:data_handler.py:96][ERROR] >> Error predicted departure is:-46 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-26 estimated_departure -46 deviation 1.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-27 estimated_departure -60 deviation -10.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-28 estimated_departure -45 deviation -4.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-29 estimated_departure -45 deviation -2.0
+[2020-04-26 15:00:58,723:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-30 estimated_departure -45 deviation 1.0
+[2020-04-26 15:00:58,723:data_handler.py:96][ERROR] >> Error predicted departure is:-45 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-08-31 estimated_departure -45 deviation 2.0
+[2020-04-26 15:00:58,723:data_handler.py:100][DEBUG] >> 2017-09-01 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-02 estimated_departure -48 deviation -13.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-03 estimated_departure -44 deviation -7.0
+[2020-04-26 15:00:58,728:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-04 estimated_departure -47 deviation 2.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-05 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,728:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 9.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-06 estimated_departure -47 deviation 9.0
+[2020-04-26 15:00:58,728:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-07 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-08 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-09 estimated_departure -48 deviation -15.0
+[2020-04-26 15:00:58,728:data_handler.py:100][DEBUG] >> 2017-09-10 estimated_departure -44 deviation -1.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-11 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,733:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-12 estimated_departure -47 deviation 30.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-13 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-14 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,733:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-15 estimated_departure -47 deviation 7.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-16 estimated_departure -48 deviation -15.0
+[2020-04-26 15:00:58,733:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-17 estimated_departure -44 deviation 2.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-18 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-19 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,733:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,733:data_handler.py:100][DEBUG] >> 2017-09-20 estimated_departure -47 deviation 2.0
+[2020-04-26 15:00:58,738:data_handler.py:100][DEBUG] >> 2017-09-21 estimated_departure -47 deviation -10.0
+[2020-04-26 15:00:58,738:data_handler.py:100][DEBUG] >> 2017-09-22 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,743:data_handler.py:96][ERROR] >> Error predicted departure is:-48 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-23 estimated_departure -48 deviation 7.0
+[2020-04-26 15:00:58,743:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 5.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-24 estimated_departure -44 deviation 5.0
+[2020-04-26 15:00:58,743:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 5.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-25 estimated_departure -47 deviation 5.0
+[2020-04-26 15:00:58,743:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-26 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,743:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-27 estimated_departure -47 deviation 2.0
+[2020-04-26 15:00:58,743:data_handler.py:100][DEBUG] >> 2017-09-28 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-09-29 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,748:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-02 estimated_departure -47 deviation 6.0
+[2020-04-26 15:00:58,748:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 8.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-03 estimated_departure -47 deviation 8.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-04 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-05 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,748:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-06 estimated_departure -47 deviation 4.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-09 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-10 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-11 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-12 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,748:data_handler.py:100][DEBUG] >> 2017-10-13 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-16 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-17 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-18 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-19 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-20 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,753:data_handler.py:96][ERROR] >> Error predicted departure is:-48 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,753:data_handler.py:100][DEBUG] >> 2017-10-21 estimated_departure -48 deviation 2.0
+[2020-04-26 15:00:58,756:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,756:data_handler.py:100][DEBUG] >> 2017-10-22 estimated_departure -44 deviation 2.0
+[2020-04-26 15:00:58,756:data_handler.py:100][DEBUG] >> 2017-10-23 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,756:data_handler.py:100][DEBUG] >> 2017-10-24 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,763:data_handler.py:100][DEBUG] >> 2017-10-25 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,763:data_handler.py:100][DEBUG] >> 2017-10-26 estimated_departure -47 deviation 0.0
+[2020-04-26 15:00:58,763:data_handler.py:100][DEBUG] >> 2017-10-27 estimated_departure -47 deviation -6.0
+[2020-04-26 15:00:58,763:data_handler.py:100][DEBUG] >> 2017-10-30 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,763:data_handler.py:100][DEBUG] >> 2017-10-31 estimated_departure -47 deviation -4.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-01 estimated_departure -47 deviation -7.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-02 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-03 estimated_departure -47 deviation -7.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-06 estimated_departure -47 deviation -13.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-07 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-08 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-09 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-10 estimated_departure -47 deviation -1.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-13 estimated_departure -47 deviation -11.0
+[2020-04-26 15:00:58,768:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,768:data_handler.py:100][DEBUG] >> 2017-11-14 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-15 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,773:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-16 estimated_departure -47 deviation 3.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-17 estimated_departure -47 deviation -5.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-18 estimated_departure -48 deviation -12.0
+[2020-04-26 15:00:58,773:data_handler.py:96][ERROR] >> Error predicted departure is:-44 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-19 estimated_departure -44 deviation 4.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-20 estimated_departure -47 deviation -2.0
+[2020-04-26 15:00:58,773:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-21 estimated_departure -47 deviation 30.0
+[2020-04-26 15:00:58,773:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-22 estimated_departure -47 deviation 4.0
+[2020-04-26 15:00:58,773:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-23 estimated_departure -47 deviation 3.0
+[2020-04-26 15:00:58,773:data_handler.py:100][DEBUG] >> 2017-11-24 estimated_departure -47 deviation -3.0
+[2020-04-26 15:00:58,778:data_handler.py:100][DEBUG] >> 2017-11-25 estimated_departure -48 deviation -14.0
+[2020-04-26 15:00:58,778:data_handler.py:100][DEBUG] >> 2017-11-26 estimated_departure -44 deviation -8.0
+[2020-04-26 15:00:58,778:data_handler.py:100][DEBUG] >> 2017-11-27 estimated_departure -47 deviation -9.0
+[2020-04-26 15:00:58,778:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,778:data_handler.py:100][DEBUG] >> 2017-11-28 estimated_departure -47 deviation 4.0
+[2020-04-26 15:00:58,778:data_handler.py:100][DEBUG] >> 2017-11-29 estimated_departure -47 deviation -13.0
+[2020-04-26 15:00:58,783:data_handler.py:96][ERROR] >> Error predicted departure is:-47 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-11-30 estimated_departure -47 deviation 1.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-01 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-04 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-05 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-06 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-07 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,783:data_handler.py:100][DEBUG] >> 2017-12-08 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,788:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-11 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-12 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-13 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-14 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-15 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,788:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-18 estimated_departure -50 deviation 4.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-19 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-20 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-21 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-22 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-23 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,788:data_handler.py:100][DEBUG] >> 2017-12-24 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-25 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-26 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-27 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,793:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 9.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-28 estimated_departure -50 deviation 9.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-29 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-30 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2017-12-31 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2018-01-01 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2018-01-02 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2018-01-03 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,793:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2018-01-04 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,793:data_handler.py:100][DEBUG] >> 2018-01-05 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,798:data_handler.py:100][DEBUG] >> 2018-01-06 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,798:data_handler.py:100][DEBUG] >> 2018-01-07 estimated_departure -50 deviation -10.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-08 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-09 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-10 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-11 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-12 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-13 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-14 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-15 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,803:data_handler.py:100][DEBUG] >> 2018-01-16 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-17 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,808:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-18 estimated_departure -50 deviation 30.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-19 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-20 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-21 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,808:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-22 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-23 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,808:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-24 estimated_departure -50 deviation 6.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-25 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-26 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-27 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,808:data_handler.py:100][DEBUG] >> 2018-01-28 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,813:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 5.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-01-29 estimated_departure -50 deviation 5.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-01-30 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,813:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-01-31 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,813:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-01 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-02 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-03 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-04 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,813:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-05 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,813:data_handler.py:100][DEBUG] >> 2018-02-06 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,823:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,823:data_handler.py:100][DEBUG] >> 2018-02-07 estimated_departure -50 deviation 6.0
+[2020-04-26 15:00:58,823:data_handler.py:100][DEBUG] >> 2018-02-08 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,823:data_handler.py:100][DEBUG] >> 2018-02-09 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,823:data_handler.py:100][DEBUG] >> 2018-02-10 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,823:data_handler.py:100][DEBUG] >> 2018-02-11 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-12 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-13 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-14 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-15 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-16 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,828:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-17 estimated_departure -50 deviation 30.0
+[2020-04-26 15:00:58,828:data_handler.py:100][DEBUG] >> 2018-02-18 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-19 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-20 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-22 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-23 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-24 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-25 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-26 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-27 estimated_departure -50 deviation -16.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-02-28 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-03-01 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-03-02 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-03-03 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,833:data_handler.py:100][DEBUG] >> 2018-03-04 estimated_departure -43 deviation 0.0
+[2020-04-26 15:00:58,848:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 2.0
+[2020-04-26 15:00:58,848:data_handler.py:100][DEBUG] >> 2018-03-05 estimated_departure -50 deviation 2.0
+[2020-04-26 15:00:58,848:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,848:data_handler.py:100][DEBUG] >> 2018-03-06 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,853:data_handler.py:100][DEBUG] >> 2018-03-07 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-08 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-09 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-10 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,857:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-11 estimated_departure -43 deviation 1.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-12 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,857:data_handler.py:100][DEBUG] >> 2018-03-13 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,863:data_handler.py:100][DEBUG] >> 2018-03-14 estimated_departure -50 deviation -15.0
+[2020-04-26 15:00:58,863:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,863:data_handler.py:100][DEBUG] >> 2018-03-15 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,863:data_handler.py:100][DEBUG] >> 2018-03-16 estimated_departure -50 deviation -6.0
+[2020-04-26 15:00:58,863:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,863:data_handler.py:100][DEBUG] >> 2018-03-17 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,868:data_handler.py:100][DEBUG] >> 2018-03-18 estimated_departure -43 deviation -3.0
+[2020-04-26 15:00:58,868:data_handler.py:100][DEBUG] >> 2018-03-19 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,868:data_handler.py:100][DEBUG] >> 2018-03-20 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,868:data_handler.py:100][DEBUG] >> 2018-03-21 estimated_departure -50 deviation -5.0
+[2020-04-26 15:00:58,868:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,868:data_handler.py:100][DEBUG] >> 2018-03-22 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,873:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 7.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-23 estimated_departure -50 deviation 7.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-24 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,873:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-25 estimated_departure -43 deviation 4.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-26 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-27 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,873:data_handler.py:100][DEBUG] >> 2018-03-28 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,878:data_handler.py:100][DEBUG] >> 2018-03-29 estimated_departure -50 deviation -13.0
+[2020-04-26 15:00:58,878:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 1.0
+[2020-04-26 15:00:58,878:data_handler.py:100][DEBUG] >> 2018-03-30 estimated_departure -50 deviation 1.0
+[2020-04-26 15:00:58,878:data_handler.py:100][DEBUG] >> 2018-03-31 estimated_departure -50 deviation -7.0
+[2020-04-26 15:00:58,878:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,878:data_handler.py:100][DEBUG] >> 2018-04-01 estimated_departure -43 deviation 3.0
+[2020-04-26 15:00:58,878:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 4.0
+[2020-04-26 15:00:58,878:data_handler.py:100][DEBUG] >> 2018-04-02 estimated_departure -50 deviation 4.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-03 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-04 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-05 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-06 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-07 estimated_departure -50 deviation -11.0
+[2020-04-26 15:00:58,883:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 6.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-08 estimated_departure -43 deviation 6.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-09 estimated_departure -50 deviation -1.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-10 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-11 estimated_departure -50 deviation -8.0
+[2020-04-26 15:00:58,883:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 3.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-12 estimated_departure -50 deviation 3.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-13 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,883:data_handler.py:100][DEBUG] >> 2018-04-14 estimated_departure -50 deviation -9.0
+[2020-04-26 15:00:58,883:data_handler.py:96][ERROR] >> Error predicted departure is:-43 corresponding arrival for this departure is: 30.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-15 estimated_departure -43 deviation 30.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-16 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-17 estimated_departure -50 deviation -14.0
+[2020-04-26 15:00:58,893:data_handler.py:96][ERROR] >> Error predicted departure is:-50 corresponding arrival for this departure is: 5.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-18 estimated_departure -50 deviation 5.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-19 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-20 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-23 estimated_departure -50 deviation -4.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-24 estimated_departure -50 deviation -12.0
+[2020-04-26 15:00:58,893:data_handler.py:100][DEBUG] >> 2018-04-25 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,898:data_handler.py:100][DEBUG] >> 2018-04-26 estimated_departure -50 deviation -2.0
+[2020-04-26 15:00:58,898:data_handler.py:100][DEBUG] >> 2018-04-27 estimated_departure -50 deviation -3.0
+[2020-04-26 15:00:58,898:data_handler.py:100][DEBUG] >> 2018-04-30 estimated_departure -50 deviation 0.0
+[2020-04-26 15:00:58,898:data_handler.py:100][DEBUG] >> 2018-05-01 estimated_departure -50 deviation -10.0
+[2020-04-26 15:00:58,898:data_handler.py:103][INFO] >> Total errors are: 107/670 accuracy is:84.02985074626865%
 

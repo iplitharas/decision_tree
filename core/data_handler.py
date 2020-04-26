@@ -9,7 +9,7 @@ import os
 
 
 class DataHandler:
-    def __init__(self, trips: List[dict], config: dict, saves_dir: str):
+    def __init__(self, trips: List[dict], config: dict, saves_dir: str, results_dir: str):
         """
         Main properties:
             data_sets : returns the training and the testing data set.
@@ -23,6 +23,7 @@ class DataHandler:
         self.trips = trips
         self.config = config
         self.saves_dir = saves_dir
+        self.results_dir = results_dir
         self.date_format = "%Y-%m-%d"
 
     @property
@@ -103,6 +104,8 @@ class DataHandler:
         plt.plot(deviation, linestyle='none', marker='.')
         plt.ylabel('minutes late')
         plt.title("Results on validation data set with {:.2f}% ".format(accuracy))
+        plt.savefig(os.path.join(self.results_dir, "validations_results.pdf"),
+                    format='pdf', dpi=1200)
         plt.show()
         return np.mean(np.abs(deviation))
 

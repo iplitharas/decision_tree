@@ -31,6 +31,10 @@ class DataLoader:
         return self._saves_dir
 
     @property
+    def results_dir(self) -> Text:
+        return self._result_dir
+
+    @property
     def data(self) -> List[dict]:
         """
         This method is the entry point to retrieve all the data set from (saves directory)

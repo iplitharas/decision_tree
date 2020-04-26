@@ -264,7 +264,8 @@ if __name__ == "__main__":
     data_loader = DataLoader()
     data_handler = DataHandler(trips=data_loader.data,
                                config=data_loader.config,
-                               saves_dir=data_loader.saves_dir)
+                               saves_dir=data_loader.saves_dir,
+                               results_dir=data_loader.results_dir)
     train, test = data_handler.data_sets
     judge = Judge(features_df=train)
     training_features_df = data_handler.create_features(list(train.columns))
