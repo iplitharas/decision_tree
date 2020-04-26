@@ -6,7 +6,7 @@ from tools.logger import Logger, logged
 from types import FunctionType
 from core.data_handler import DataHandler
 from core.data_loader import DataLoader
-
+import os
 
 class Judge:
     def __init__(self, features_df):
@@ -191,7 +191,7 @@ class DecisionTree:
                 Logger.logger.debug(f"Feature: {current_node.split_feature} is not 0 or 1")
                 return None
 
-    def render(self):
+    def render(self, results_dir: str):
         """
         Create a plot that describes the tree
         :return:
@@ -257,6 +257,8 @@ class DecisionTree:
 
         recurse(node=self.root, level=initial_level, x=initial_x)
         plt.title("Decision tree")
+        plt.savefig(os.path.join(results_dir, "decision_tree.pdf"),
+                    format='pdf', dpi=1200)
         plt.show()
 
 
@@ -271,6 +273,6 @@ if __name__ == "__main__":
     training_features_df = data_handler.create_features(list(train.columns))
     tree = DecisionTree(error_function=judge.find_total_abs_deviation)
     tree.train(training_features=training_features_df)
-    tree.render()
+    tree.render(results_dir=data_loader.results_dir)
     testing_score = data_handler.evaluate(tree=tree, data_set=test)
     print(f"testing score is: {testing_score}")
