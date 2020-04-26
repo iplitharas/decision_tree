@@ -1,0 +1,40 @@
+{
+  "departure": "JFK/UMass - Red Line - Alewife (from Ashmont)",
+  "arrival": "Harvard - Red Line - Alewife",
+  "base_url": "http://realtime.mbta.com/developer/api/v2.1/traveltimes",
+  "api_key": "wX9NwuHnZU2ToO7GmGR9uw",
+  "dataset_url": "https://cdn.mbta.com/MBTA_GTFS.zip",
+  "dataset_file_name": "MBTA_GTFS.zip",
+  "home_departure_station": 4,
+  "arrival_station_work": 9,
+  "target_hour": 18,
+  "target_minute": 0,
+  "train_dep_min": -60,
+  "train_dep_max": 0,
+  "request_params": {
+    "api_key": "null",
+    "format": "json",
+    "from_stop": null,
+    "to_stop": null,
+    "from_datetime": null,
+    "to_datetime": null
+  },
+  "start_time": [
+    16,
+    0
+  ],
+  "end_time": [
+    19,
+    0
+  ],
+  "start_date": [
+    2015,
+    5,
+    1
+  ],
+  "end_date": [
+    2018,
+    5,
+    1
+  ]
+}
